@@ -1,0 +1,36 @@
+body{
+  background-color: #d9f1ff;
+}
+
+h1{
+  color: rebeccapurple;
+}
+
+h3{
+  color: rebeccapurple;
+}
+
+hr {
+  background-color: white;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: black;
+  border-width: 1px;
+  height: 0;
+  width: 85%;
+}
+
+.personal{
+  height: 250px;
+}
+
+.rounded{
+  border-radius: 100%;
+}
+
+#name{
+  color: blueviolet;
+}
+#name:hover{
+  color: green;
+}
