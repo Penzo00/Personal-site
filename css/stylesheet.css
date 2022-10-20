@@ -1,13 +1,17 @@
+
 body{
   background-color: #d9f1ff;
+  margin-top: 0;
 }
 
 h1{
   color: rebeccapurple;
+  margin-top: 0;
 }
 
 h3{
   color: rebeccapurple;
+  margin-top: 0;
 }
 
 hr {
@@ -28,9 +32,130 @@ hr {
   border-radius: 100%;
 }
 
+.thick{
+  border-width: 5px;
+}
+
+.container{
+  border: solid 2px;
+  padding: 0px;
+}
+
+.top-container{
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border: solid 2px;
+  padding: 20px;
+}
+
+.middle-container{
+  background-color: #fff038;
+  width: 20px;
+  height: 20px;
+  border: solid 2px;
+  padding: 20px;
+  margin-left: 64px;
+}
+
+.bottom-container{
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+  border: solid 2px;
+  padding: 20px;
+  margin-left: 128px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.red{
+  width: 20px;
+  height: 20px;
+  border: solid 2px;
+  padding: 20px;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+
+.yellow{
+  width: 20px;
+  height: 20px;
+  border: solid 2px;
+  padding: 20px;
+  background-color: yellow;
+  position: relative;
+  top: 42px;
+  left: 42px;
+}
+
+.blue{
+  width: 20px;
+  height: 20px;
+  border: solid 2px;
+  padding: 20px;
+  background-color: blue;
+  position: relative;
+  top: -84px;
+  left: 104px;
+}
+
+.box{
+  position: relative;
+  background-color: grey;
+  width: 146px;
+  height: 84px;
+  border: solid 2px;
+  padding: 20px;
+}
+
+.great-container{
+  text-align: center;
+}
+
+#cloud1{
+  left: 49%;
+  top: 5%;
+  position: fixed;
+  z-index: -1;
+}
+
+#cloud2{
+  left: 33%;
+  top: 20%;
+  position: fixed;
+  z-index: -1;
+}
+
+#onlyHere{
+  border-right: solid 2px;
+  margin-right: 8%;
+}
+
 #name{
   color: blueviolet;
 }
 #name:hover{
   color: green;
 }
+
+#rayman{
+  border-radius: 100%;
+  width: 100px;
+  top: 79%;
+  right: 5%;
+  position: fixed;
+}
+
+#mountain{
+  right: 30%;
+  position: fixed;
+  z-index: -2;
+}
+
+
