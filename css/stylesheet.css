@@ -1,6 +1,6 @@
 
 body{
-  background-color: #d9f1ff;
+  background-color: #f1fffd;/*#d9f1ff;*/
   margin-top: 0;
 }
 
@@ -24,6 +24,16 @@ hr {
   width: 85%;
 }
 
+.grey{
+  background-color: grey;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px;
+}
+
 .personal{
   height: 250px;
 }
@@ -38,7 +48,8 @@ hr {
 
 .container{
   border: solid 2px;
-  padding: 0px;
+  padding: 0;
+  position: relative;
 }
 
 .top-container{
@@ -118,17 +129,27 @@ hr {
   text-align: center;
 }
 
+.centered{
+  text-align: center;
+}
+
+#first_sentence{
+  margin-top: 80px;
+  font-family: "Comic Sans MS", serif;
+  color: black;
+}
+
 #cloud1{
   left: 49%;
   top: 5%;
-  position: fixed;
+  position: absolute;
   z-index: -1;
 }
 
 #cloud2{
-  left: 33%;
-  top: 20%;
-  position: fixed;
+  left: 37%;
+  top: 10%;
+  position: absolute;
   z-index: -1;
 }
 
@@ -139,6 +160,9 @@ hr {
 
 #name{
   color: blueviolet;
+  font-family: 'Bonheur Royale', cursive;
+  font-size: 3rem;
+  margin: 0 0 0 0;
 }
 #name:hover{
   color: green;
@@ -150,12 +174,45 @@ hr {
   top: 79%;
   right: 5%;
   position: fixed;
+  z-index: 1;
 }
 
 #mountain{
-  right: 30%;
-  position: fixed;
+  top: -170px;
+  position: relative;
   z-index: -2;
 }
 
+#workInProgress{
+  text-decoration: underline;
+}
 
+#photo1{
+  width: 100px;
+  float: right;
+  border-radius: 100%;
+}
+
+#photo2{
+  width: 120px;
+  float: right;
+  border-radius: 100%;
+}
+
+#photo3{
+  width: 120px;
+  float: right;
+  border-radius: 100%;
+}
+
+#photo4{
+  width: 220px;
+  float: right;
+  border-radius: 100%;
+}
+
+#photo5{
+  width: 110px;
+  float: right;
+  border-radius: 100%;
+}
